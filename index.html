@@ -2,343 +2,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Disable page zoom -->
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Payment, Refund & Liability Disclaimer | Pulse Alpha</title>
 
-  <meta name="theme-color" content="#0b1020">
-  <meta name="description" content="Pulse Alpha Privacy Policy, Terms and Conditions, and AI Trading Risk Disclaimer">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  <title>Pulse Alpha — Privacy Policy & Terms</title>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f8fc;
+    color: #252b3a;
+    line-height: 1.7;
+    padding: 20px;
+}
 
-  <style>
-    * {
-      box-sizing: border-box;
-      -webkit-tap-highlight-color: transparent;
-    }
+.container {
+    max-width: 850px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 35px;
+    border: 1px solid #e8eaf0;
+    border-radius: 14px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.04);
+}
 
-    html {
-      touch-action: pan-y;
-      -webkit-text-size-adjust: 100%;
-      text-size-adjust: 100%;
-    }
+.header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 30px;
+}
 
+.logo {
+    font-size: 27px;
+    font-weight: 800;
+    color: #635bff;
+    margin-bottom: 12px;
+}
+
+.header h1 {
+    font-size: 23px;
+    color: #171c2b;
+    line-height: 1.4;
+}
+
+.header p {
+    color: #777f90;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    font-size: 17px;
+    color: #252b3a;
+    margin-bottom: 9px;
+}
+
+.section p {
+    font-size: 15px;
+    color: #596174;
+}
+
+.important {
+    background: #f4f5ff;
+    border-left: 4px solid #635bff;
+    padding: 16px;
+    border-radius: 7px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #424966;
+}
+
+.footer {
+    border-top: 1px solid #eeeeee;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    color: #8b91a0;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
     body {
-      margin: 0;
-      padding: 18px 13px;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #080d19;
-      color: #e5e7eb;
-      line-height: 1.7;
-      overflow-x: hidden;
+        padding: 12px;
     }
 
     .container {
-      width: 100%;
-      max-width: 760px;
-      margin: auto;
+        padding: 22px 17px;
+        margin: 12px auto;
     }
 
-    header {
-      text-align: center;
-      padding: 28px 16px;
-      border: 1px solid #263752;
-      border-radius: 20px;
-      background: linear-gradient(145deg, #14223a, #0d1424);
-      margin-bottom: 18px;
+    .header h1 {
+        font-size: 20px;
     }
 
-    .logo {
-      width: 56px;
-      height: 56px;
-      margin: 0 auto 12px;
-      display: grid;
-      place-items: center;
-      border: 1px solid #60a5fa;
-      border-radius: 16px;
-      color: #60a5fa;
-      font-size: 25px;
-      font-weight: bold;
+    .section h2 {
+        font-size: 16px;
     }
 
-    h1 {
-      color: #60a5fa;
-      font-size: 27px;
-      margin: 0;
-      letter-spacing: 1px;
+    .section p {
+        font-size: 14px;
     }
-
-    .subtitle {
-      color: #a6b4c9;
-      font-size: 13px;
-      margin-top: 7px;
-    }
-
-    section {
-      background: #101a2b;
-      border: 1px solid #263449;
-      padding: 19px;
-      border-radius: 16px;
-      margin-bottom: 14px;
-      overflow-wrap: anywhere;
-    }
-
-    h2 {
-      color: #70b5ff;
-      font-size: 18px;
-      margin: 0 0 12px;
-    }
-
-    p, li {
-      font-size: 14px;
-      color: #d1d9e6;
-    }
-
-    p:last-child {
-      margin-bottom: 0;
-    }
-
-    .warning {
-      background: #201b18;
-      border-color: #795327;
-    }
-
-    .warning h2 {
-      color: #ffc56b;
-    }
-
-    .agreement {
-      border: 1px solid #367b70;
-      background: #102521;
-    }
-
-    .agreement h2 {
-      color: #76e2c2;
-    }
-
-    .agreement strong {
-      color: #a4f4d9;
-    }
-
-    a {
-      color: #70b5ff;
-      text-decoration: underline;
-      text-underline-offset: 4px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 18px 8px;
-      color: #8d9bb0;
-      font-size: 12px;
-    }
-
-    @media (max-width: 400px) {
-      body {
-        padding: 12px 10px;
-      }
-
-      header {
-        padding: 23px 12px;
-      }
-
-      h1 {
-        font-size: 24px;
-      }
-
-      section {
-        padding: 16px;
-      }
-    }
-  </style>
+}
+</style>
 </head>
 
 <body>
-  <main class="container">
 
-    <header>
-      <div class="logo">Pα</div>
-      <h1>PULSE ALPHA</h1>
-      <div class="subtitle">
-        Privacy Policy, Terms & Conditions
-      </div>
-    </header>
+<div class="container">
 
-    <section class="agreement">
-      <h2>1. Acceptance of Terms & Conditions</h2>
+    <div class="header">
+        <div class="logo">PULSE ALPHA</div>
+        <h1>Payment, Refund & Liability Disclaimer</h1>
+        <p>Please read these terms carefully before using our services.</p>
+    </div>
 
-      <p>
-        By accessing or using Pulse Alpha, you acknowledge that
-        you have read, understood, and agreed to this Privacy
-        Policy, Terms & Conditions, and Risk Disclaimer.
-      </p>
+    <div class="section">
+        <h2>1. Payment Policy</h2>
+        <p>
+        All payments made for subscriptions, premium features,
+        AI trading signals, and other paid services are subject
+        to our payment terms.
+        </p>
+    </div>
 
-      <p>
-        <strong>
-          If you do not agree with any of these terms, please
-          do not use Pulse Alpha or its services.
-        </strong>
-      </p>
+    <div class="section">
+        <h2>2. No Refund Policy</h2>
+        <p>
+        All payments are non-refundable once a subscription or
+        paid service has been activated, except where a refund
+        is required by applicable law or the service is not
+        provided as promised.
+        </p>
+    </div>
 
-      <p>
-        Your continued use of the application constitutes
-        acceptance of these terms, subject to applicable law.
-        If these terms are updated, continued use after the
-        updated terms become effective may constitute acceptance
-        where permitted by law.
-      </p>
-    </section>
+    <div class="section">
+        <h2>3. Trading Risk Disclaimer</h2>
+        <p>
+        All AI-generated trading signals, including LONG, SHORT,
+        Entry Price, Stop Loss, and Targets, are estimates and
+        may be inaccurate.
+        <br><br>
+        Cryptocurrency trading involves significant financial
+        risk. Users may lose some or all of their invested capital.
+        </p>
+    </div>
 
-    <section>
-      <h2>2. Privacy Policy</h2>
+    <div class="section">
+        <h2>4. No Liability for Trading Losses</h2>
+        <p>
+        Pulse Alpha, its owners, developers, employees, and
+        affiliates shall not be responsible for any direct or
+        indirect financial losses, missed profits, trading losses,
+        or damages resulting from the use of AI-generated signals
+        or platform information, to the extent permitted by
+        applicable law.
+        </p>
+    </div>
 
-      <p>
-        Pulse Alpha provides AI-powered market analysis and
-        related informational features. Information entered
-        into the application may be processed to provide these
-        features.
-      </p>
+    <div class="section">
+        <h2>5. No Guaranteed Profits</h2>
+        <p>
+        Pulse Alpha does not guarantee profits, signal accuracy,
+        or successful trading outcomes.
+        </p>
+    </div>
 
-      <p>
-        Actual data collection, storage, and sharing depend on
-        the features enabled in the application and the services
-        it uses. Third-party APIs, analytics providers, and
-        other service providers may process data under their
-        own privacy policies.
-      </p>
+    <div class="section">
+        <h2>6. User Responsibility</h2>
+        <p>
+        All trading and financial decisions are made entirely
+        at the user's own risk. Users are responsible for
+        independently evaluating every trading signal before
+        making a trade.
+        </p>
+    </div>
 
-      <p>
-        Do not enter passwords, OTPs, private keys, or other
-        sensitive financial credentials into the application.
-      </p>
-    </section>
+    <div class="section">
+        <h2>7. Service Disclaimer</h2>
+        <p>
+        Pulse Alpha is an AI-powered cryptocurrency analysis
+        and information platform. It does not execute trades,
+        hold user funds, or manage cryptocurrency wallets.
+        </p>
+    </div>
 
-    <section class="warning">
-      <h2>3. AI Analysis & Trading Risk Disclaimer</h2>
+    <div class="section">
+        <h2>8. Acceptance of Terms</h2>
+        <p>
+        By purchasing a subscription or using our premium
+        services, users acknowledge that they have read and
+        agreed to these Payment, Refund, Risk, and Liability Terms.
+        </p>
+    </div>
 
-      <p>
-        Pulse Alpha provides AI-generated analysis, market
-        insights, possible entry and exit levels, targets,
-        and other estimates based on available information.
-      </p>
+    <div class="important">
+        <strong>Important Notice:</strong><br>
+        Nothing in these terms excludes or limits any consumer
+        rights or legal liabilities that cannot lawfully be
+        excluded under applicable law.
+    </div>
 
-      <p>
-        <strong>
-          AI analysis only estimates what may happen. It does
-          not guarantee that a predicted market movement,
-          target, or outcome will occur.
-        </strong>
-      </p>
+    <div class="footer">
+        <strong>Pulse Alpha</strong>
+        <p>Payment, Refund, Risk & Liability Terms</p>
+        <p>© 2026 Pulse Alpha. All rights reserved.</p>
+    </div>
 
-      <p>
-        Market conditions can change rapidly. AI-generated
-        information may be inaccurate, incomplete, delayed,
-        or unsuitable for your circumstances.
-      </p>
+</div>
 
-      <p>
-        Trading in stocks, cryptocurrency, derivatives, and
-        other financial instruments involves risk. You may
-        lose part or all of your invested capital.
-      </p>
-
-      <p>
-        Pulse Alpha does not guarantee profits, successful
-        trades, accurate predictions, or any particular
-        financial result. Past performance does not guarantee
-        future results.
-      </p>
-
-      <p>
-        The application and its developer are not responsible
-        for losses or trading decisions made using AI analysis,
-        to the extent permitted by applicable law. Nothing
-        in these terms excludes liability that cannot legally
-        be excluded.
-      </p>
-
-      <p>
-        Always conduct your own research and consult a
-        qualified financial professional when appropriate.
-      </p>
-    </section>
-
-    <section class="warning">
-      <h2>4. Payment & Refund Policy</h2>
-
-      <p>
-        Please review the price and features carefully before
-        purchasing any paid feature or subscription.
-      </p>
-
-      <p>
-        Payments are non-refundable, except where a refund is
-        required by applicable law or the relevant payment
-        platform's policies.
-      </p>
-
-      <p>
-        Purchasing a service does not guarantee profitable
-        trades, accurate AI analysis, or any financial return.
-      </p>
-    </section>
-
-    <section>
-      <h2>5. No Financial Guarantee</h2>
-
-      <p>
-        Pulse Alpha is an analysis tool, not a guarantee of
-        market performance. All information is provided for
-        general informational and educational purposes and
-        should not be treated as a promise of future results.
-      </p>
-
-      <p>
-        You are responsible for evaluating the information
-        and making your own financial decisions.
-      </p>
-    </section>
-
-    <section>
-      <h2>6. Third-Party Services</h2>
-
-      <p>
-        Certain application features may depend on external
-        APIs, market-data providers, or payment services.
-        Their availability, accuracy, and privacy practices
-        are controlled by those providers.
-      </p>
-    </section>
-
-    <section>
-      <h2>7. Changes to These Terms</h2>
-
-      <p>
-        Pulse Alpha may update this policy when application
-        features, services, or legal requirements change.
-        The latest version will be published on this page.
-      </p>
-    </section>
-
-    <section>
-      <h2>8. Contact Developer</h2>
-
-      <p>
-        For questions about this policy or the application,
-        <a href="mailto:likharaayan026@gmail.com">
-          Contact Developer
-        </a>.
-      </p>
-    </section>
-
-    <footer>
-      <strong>Pulse Alpha</strong>
-      <p>AI analysis. No guaranteed outcomes.</p>
-      Last updated: October 25, 2026
-    </footer>
-
-  </main>
 </body>
 </html>
